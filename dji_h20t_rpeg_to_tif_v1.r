@@ -15,7 +15,7 @@ require(exifr)
 
 
 ### dir where DJI Thermal SDK is located (select appropriate release according to your OS).
-sdk_dir = "JUST AN EXAMPLE/dji_thermal_sdk_v1.2_20211209/utility/bin/windows/release_x64/"
+sdk_dir = "C:\Users\Jamie Bockett\Documents\University\Physics\Year 4\PHYS498\KatternbornThermalCode\dji_h20t_rpeg_to_tif\dji_thermal_sdk_v1.6_20240927"
 setwd(sdk_dir) # convinient way to set SDK paths across OS systems (path compatibility)
 # short version for running commands in terminal
 run<-function(x) shell(x, intern=FALSE, wait=TRUE)
