@@ -15,7 +15,7 @@ require(exifr)
 
 
 ### dir where DJI Thermal SDK is located (select appropriate release according to your OS).
-sdk_dir = "C:\Users\Jamie Bockett\Documents\University\Physics\Year 4\PHYS498\KatternbornThermalCode\dji_h20t_rpeg_to_tif\dji_thermal_sdk_v1.6_20240927"
+sdk_dir = "C:\Program Files\dji_thermal_sdk_v1.6_20240927"
 setwd(sdk_dir) # convinient way to set SDK paths across OS systems (path compatibility)
 # short version for running commands in terminal
 run<-function(x) shell(x, intern=FALSE, wait=TRUE)
@@ -28,7 +28,7 @@ distance = 25 # default: 5 m   range: 1-25 m    # altitude - object height (set 
 
 
 ###  dir where your raw *.rpeg thermal images are placed. A output directory will be placed inside this folder.
-in_dir = "INSERT DIR" # rf 29 %
+in_dir = "C:\Users\Jamie Bockett\Pictures\DJI_202412180933_002" # rf 29 %
 
 
 out_dir = "ir_calib/"
